@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/latest/latest",
+    "pages/hotest/hotest",
+    "pages/classify/classify",
+    "pages/detail/detail",
+    "pages/topicsDetail/topicsDetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3190e8",
+    "navigationBarTitleText": "...",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#56abe4",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/latest/latest",
+        "text": "最新",
+        "iconPath": "images/latest.png",
+        "selectedIconPath": "images/latest_on.png"
+      },
+      {
+        "pagePath": "pages/hotest/hotest",
+        "text": "热门",
+        "iconPath": "images/hotest.png",
+        "selectedIconPath": "images/hotest_on.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "images/classify.png",
+        "selectedIconPath": "images/classify_on.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
